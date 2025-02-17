@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text should be visible.
+  </div>
+
+  <script>
+    let myVar = "This text replaces the original content.";
+    document.getElementById("myDiv").innerHTML = myVar; 
+  </script>
+</body>
+</html>
